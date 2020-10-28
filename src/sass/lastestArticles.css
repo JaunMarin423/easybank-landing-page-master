@@ -1,0 +1,28 @@
+.lastestArticles {
+  background: var(--lightGray);
+}
+
+.lastestArticles__grid {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 2em;
+}
+
+.lastestArticles__item {
+  border-radius: .5em;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.lastestArticles__item-content {
+  padding: 1.8em;
+}
+
+.lastestArticles__item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 0 -2em;
+  display: block;
+}
+/*# sourceMappingURL=lastestArticles.css.map */

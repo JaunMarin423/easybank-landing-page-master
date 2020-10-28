@@ -2,6 +2,7 @@
 @import "./hero.scss";
 @import "./menu.scss";
 @import "./why.scss";
+@import "./lastestArticles.scss";
 
 :root{
 // Colores
@@ -49,6 +50,11 @@ body {
     @extend .title__h1;
     font-size: 1.5em;
     
+  }
+  &__h3{
+  @extend .title__h1;
+  font-size: 1em;
+  
   }
 }
 .copy{
