@@ -1,5 +1,10 @@
 .lastestArticles {
+  padding: 5em 0;
   background: var(--lightGray);
+}
+
+.lastestArticles .title__h1 {
+  text-align: center;
 }
 
 .lastestArticles__grid {
@@ -15,14 +20,23 @@
 }
 
 .lastestArticles__item-content {
-  padding: 1.8em;
+  padding: 2em;
+}
+
+.lastestArticles__item .copy {
+  color: var(--grayBlue);
+}
+
+.lastestArticles__item small {
+  color: var(--grayBlue);
+  margin-bottom: 1em;
+  display: block;
 }
 
 .lastestArticles__item img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  margin: 0 -2em;
   display: block;
 }
 /*# sourceMappingURL=lastestArticles.css.map */

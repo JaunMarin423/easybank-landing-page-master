@@ -1,0 +1,42 @@
+.footer {
+  background: var(--darkBlue);
+  color: var(--white);
+  padding: 2em 0;
+  text-align: center;
+}
+
+.footer svg {
+  display: block;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.footer__link {
+  display: block;
+  color: var(--gray);
+  text-decoration: none;
+  margin-bottom: 2em;
+}
+
+.footer__social {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (25px)[5];
+      grid-template-columns: repeat(5, 25px);
+  grid-column-gap: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2.5em 0;
+}
+
+.footer__copyrigth {
+  color: var(--grayBlue);
+  margin-top: 2.5em;
+}
+
+.footer__attribution {
+  margin-top: 2.5em;
+  color: var(--grayBlue);
+}
+/*# sourceMappingURL=footer.css.map */
